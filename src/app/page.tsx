@@ -227,14 +227,14 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
             {t('coreFeatures')}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            {/* <div className="text-center">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <div className="w-8 h-8 bg-blue-500 rounded"></div>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">{t('colorPicker')}</h3>
               <p className="text-gray-600 text-sm">{t('colorPickerDesc')}</p>
-            </div>
+            </div> */}
             <div className="text-center">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <div className="w-8 h-8 bg-green-500 rounded"></div>
@@ -249,13 +249,13 @@ export default function Home() {
               <h3 className="font-semibold text-gray-900 mb-2">{t('realTimePreview')}</h3>
               <p className="text-gray-600 text-sm">{t('realTimePreviewDesc')}</p>
             </div>
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <div className="w-8 h-8 bg-orange-500 rounded"></div>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">{t('multiFormatExport')}</h3>
               <p className="text-gray-600 text-sm">{t('multiFormatExportDesc')}</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -418,7 +418,7 @@ export default function Home() {
           {/* Bottom Section */}
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 SolidColorX. {t('allRightsReserved')}
+              © 2025 SolidColorX. {t('allRightsReserved')}
             </div>
 
             {/* Social Links */}
