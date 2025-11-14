@@ -290,10 +290,10 @@ export default function Home() {
             {t('faq')}
           </h2>
           <div className="max-w-3xl mx-auto space-y-6">
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            {/* <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <h3 className="font-semibold text-gray-900 mb-3">{t('faq1Question')}</h3>
               <p className="text-gray-600">{t('faq1Answer')}</p>
-            </div>
+            </div> */}
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <h3 className="font-semibold text-gray-900 mb-3">{t('faq2Question')}</h3>
               <p className="text-gray-600">{t('faq2Answer')}</p>
