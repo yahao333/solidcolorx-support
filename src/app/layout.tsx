@@ -1,12 +1,20 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'SolidColorX - 专业纯色背景生成器',
-  description: 'SolidColorX 是一款专为 macOS 设计的纯色背景生成器，支持多种颜色格式和导出选项，满足设计师和内容创作需求。',
-  keywords: ['纯色背景', '颜色生成器', 'macOS应用', '设计师工具', '背景图片'],
+  title: 'SolidColorX - Professional Solid Color Background Generator for macOS',
+  description: 'SolidColorX is a professional solid color background generator for macOS. Designed for designers, developers, and content creators to quickly generate high-quality solid color background images.',
+  keywords: ['solid color background', 'color generator', 'macOS app', 'designer tool', 'background image', '纯色背景', '颜色生成器', 'macOS应用', '设计师工具'],
+  openGraph: {
+    title: 'SolidColorX - Professional Solid Color Background Generator',
+    description: 'Generate high-quality solid color backgrounds for macOS. Perfect for designers and content creators.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SolidColorX - Professional Solid Color Background Generator',
+    description: 'Generate high-quality solid color backgrounds for macOS. Perfect for designers and content creators.',
+  },
 }
 
 export default function RootLayout({
@@ -15,13 +23,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body className="min-h-screen bg-white">
-        <Header />
-        <main className="pt-16">
+        <main>
           {children}
         </main>
-        <Footer />
       </body>
     </html>
   )
