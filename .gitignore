@@ -14,10 +14,6 @@ dist/
 # next.js build output
 .next/
 
-# Tauri build outputs
-src-tauri/target/
-src-tauri/target/
-
 # macOS
 .DS_Store
 .DS_Store?
