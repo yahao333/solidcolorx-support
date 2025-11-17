@@ -335,7 +335,7 @@ export default function Home() {
             {t('noRegistration')}
           </p>
           <a
-            href="https://github.com/solidcolorx/solidcolorx/releases"
+            href="https://github.com/yahao333/solidcolorx-support/releases"
             className="inline-block px-8 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
           >
             {t('downloadNow')}
@@ -424,7 +424,7 @@ export default function Home() {
             {/* Social Links */}
             <div className="flex space-x-6">
               <a
-                href="https://github.com/solidcolorx/solidcolorx"
+                href="https://github.com/yahao333/solidcolorx-support"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="GitHub"
                 target="_blank"
